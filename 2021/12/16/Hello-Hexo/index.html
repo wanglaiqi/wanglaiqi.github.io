@@ -110,7 +110,7 @@
 
         
             <form id="search-form">
-            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
             <i class="fa fa-times" onclick="resetSearch()"></i>
             </form>
             <div id="local-search-result"></div>
@@ -136,11 +136,6 @@
                         </div>
                         
                         
-                        <div class="icon-wrap icon-me hide" data-idx="3">
-                            <div class="user"></div>
-                            <div class="shoulder"></div>
-                        </div>
-                        
                     </div>
                     
                 </div>
@@ -152,8 +147,6 @@
                         
                         <li>友情链接</li>
                         
-                        
-                        <li>关于我</li>
                         
                     </ul>
                 </div>
@@ -185,8 +178,6 @@
                             
                                 <a class="fa 知乎" href="/zhihu" title="知乎"></a>
                             
-                                <a class="fa 微信" href="/Wechat" title="微信"></a>
-                            
                         </ul>
                     </nav>
                 </section>
@@ -207,18 +198,10 @@
                     
                       <a class="main-nav-link switch-friends-link" target="_blank" rel="noopener" href="https://pages.github.com/">GitHub</a>
                     
-                      <a class="main-nav-link switch-friends-link" target="_blank" rel="noopener" href="http://moxfive.xyz/">MOxFIVE</a>
-                    
                     </div>
                 </section>
                 
 
-                
-                
-                <section class="switch-part switch-part4">
-                
-                    <div id="js-aboutme">专注于AI</div>
-                </section>
                 
             </div>
         </div>
@@ -264,8 +247,6 @@
                                 <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
                             
                                 <a class="fa 知乎" target="_blank" href="/zhihu" title="知乎"></a>
-                            
-                                <a class="fa 微信" target="_blank" href="/Wechat" title="微信"></a>
                             
                         </ul>
             </nav>
@@ -516,7 +497,7 @@ MathJax.Hub.Queue(function() {
             
             
              archives: ".archive-article-title", 
-             miniArchives: "a.post-list-link", 
+            
             
              friends: "#js-friends a", 
              socail: ".social a" 
